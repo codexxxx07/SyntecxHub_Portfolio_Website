@@ -279,6 +279,12 @@ h2 {
   font-size: 1rem;
 }
 
+.project-link {
+  text-decoration: none;   /* underline remove */
+  color: inherit;          /* same text color */
+  display: block;          /* pura card clickable */
+}
+
 /* CONTACT SECTION */
 .contact {
   padding: 80px 60px;

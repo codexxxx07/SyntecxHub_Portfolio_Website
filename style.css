@@ -358,6 +358,19 @@ h2 {
 .social-links {
   flex: 1 1 300px;
   display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.social-links h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 5px;
+}
+
+.social-links .social-buttons {
+  display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
